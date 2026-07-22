@@ -1,0 +1,18 @@
+alfina-portfolio/
+│
+├── index.html
+│
+├── css/
+│     ├── style.css
+│     └── responsive.css
+│
+├── js/
+│     └── script.js
+│
+├── assets/
+│     ├── images/
+│     ├── icons/
+│     ├── project/
+│     └── resume/
+│
+└── README.md
