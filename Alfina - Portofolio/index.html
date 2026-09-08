@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Alfina Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/profile.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/profile.png">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="stylesheet" href="css/responsive.css">
-
-
 </head>
-
 <body>
-
     <!-- ================= NAVBAR ================= -->
-
     <header>
 
         <nav class="navbar">
@@ -32,7 +27,11 @@
 
             </div>
 
-            <ul class="nav-menu">
+            <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
 
                 <li><a href="#home">Home</a></li>
 
@@ -1483,28 +1482,16 @@
 
 <script src="js/script.js"></script>
 
-
-
-
 <!-- ================= FOOTER ================= -->
-
 <footer class="footer">
-
     <div class="container">
-
         <p>
             © 2026 <strong>Alfina Sugiyanto</strong>.
         </p>
-
         <p>
             Designed &amp; Developed by Me.
         </p>
-
     </div>
-
 </footer>
-
-
 </body>
-
 </html>
