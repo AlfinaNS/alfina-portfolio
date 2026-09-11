@@ -1059,11 +1059,15 @@ EDUCATION
 
     display:grid;
 
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(2,1fr);
+
+    max-width:760px;
+
+    margin:60px auto;
 
     gap:25px;
 
-    margin:70px 0;
+    justify-content:center;
 
 }
 
@@ -1367,6 +1371,10 @@ margin:auto;
 
 grid-template-columns:repeat(2,1fr);
 
+max-width:650px;
+
+margin:40px auto;
+
 }
 
 }
@@ -1375,7 +1383,11 @@ grid-template-columns:repeat(2,1fr);
 
 .organization-stats{
 
-grid-template-columns:1fr;
+grid-template-columns:repeat(2,1fr);
+
+max-width:540px;
+
+margin:30px auto;
 
 }
 
