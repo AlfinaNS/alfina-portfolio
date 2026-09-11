@@ -2093,6 +2093,7 @@ display:none;
 
 /* Achievement */
 
+.achievement-grid.achievement-grid-3,
 .achievement-grid-3{
 
     display:grid;
